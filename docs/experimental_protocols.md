@@ -771,3 +771,72 @@ E_truncate
 E_cover
 
 Falsification status:
+
+14. Statistical Requirements
+
+Each experiment should include:
+
+Replication
+
+Multiple independent trajectories.
+
+Confidence Estimates
+
+Report uncertainty on:
+
+k
+∗
+
+and:
+
+ΔL(k)
+Sensitivity Analysis
+
+Test robustness to:
+
+estimator architecture,
+regularization,
+trajectory initialization,
+sampling density.
+15. Falsification Criteria
+
+The framework is weakened if:
+
+No efficiency maximum exists.
+C
+G
+	​
+
+(k) does not show contraction/rebound behavior.
+Resource scaling laws fail.
+Coordinate transformations cannot be removed.
+Error channels cannot be separated experimentally.
+16. Initial Validation Roadmap
+
+Recommended sequence:
+
+Harmonic Oscillator→Coordinate Warp→Noise Sweep→Data Scaling→Euler Top
+	​
+
+
+The first objective is not complexity.
+
+The first objective is measurement validity.
+
+Conclusion
+
+The experimental program tests whether structural discovery behaves as a finite-resolution phenomenon.
+
+The central observable is:
+
+k
+∗
+
+The central hypothesis is:
+
+More computation does not guarantee deeper recoverable structure.
+	​
+
+
+The experiments determine whether this boundary is a measurable property of bounded observers interacting with dynamical systems.
+
